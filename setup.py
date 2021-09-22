@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="instaresizer",
-    version="0.0.3",
+    version="0.0.4",
     author="Roshan Thomas",
     author_email="roshan@secvibe.com",
     description="Returns a PIL Image object of instagram compatible aspect ratio when supplied with an image URL or an image object.",

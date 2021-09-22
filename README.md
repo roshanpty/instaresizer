@@ -1,4 +1,4 @@
-### Instaresizer-0.0.3
+### Instaresizer
 
 #### Description
 
@@ -14,26 +14,22 @@ pip install instaresizer
 
 ##### Example
 
-1. Importing the library
+###### Importing the library
 ```
 #!/usr/bin/env python3
-
 from instaresizer import instasize
-
 ```
-2. Usage - resizing remote image file supplied via a URL. 
+###### Usage - resizing remote image file supplied via a URL. 
+
+This is useful if the image is publicly accessible with no additional authentication requirements. 
 ```
 image_url = 'https://s3.amazonaws.com/images.seroundtable.com/30th-anniversary-of-the-world-wide-web-google-1552390014.gif'
-
 img = instasize.resize_remote(image_url)
-
 img.save('resized_file.png', 'PNG')
 ```
-3. Usage - resizing local image file supplied via a URL. 
+###### Usage - resizing local image file. 
 ```
 image = Image.open("test_image.jpeg")
-
 img = instasize.resize_image(image)
-
 img.save('resized_file.png', 'PNG')
 ```
