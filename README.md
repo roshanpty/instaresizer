@@ -1,4 +1,4 @@
-### Instaresizer-0.0.2
+### Instaresizer-0.0.3
 
 #### Description
 
