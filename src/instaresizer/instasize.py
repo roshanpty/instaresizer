@@ -5,7 +5,7 @@ from resizeimage import resizeimage
 
 
 
-def insta_size(url: str) -> Image:
+def resize_remote(url: str) -> Image:
 	# Takes in an image URL as an argument
 	# Returns a PIL Image object if successful
 	# Or None if unsuccessful. 
