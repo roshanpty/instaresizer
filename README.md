@@ -2,7 +2,7 @@
 
 #### Description
 
-Takes in an image URL as an argument and returns PIL image object which resizes the original image to optimally fit instagram supported aspect ratio. 
+Instagram only allows images between aspect rations 16:9 (landscape) and 4:5 (portrait) mode to be uploaded. Images that are wider than 16:9 or taller than 4:5 are not supported by Instagram for uploads. Instaresizer is an image resizer that can be used to convert images of any aspect ratio to instagram supported aspect ratios. This resizer converts the image to optimal dimensions depending on the original image's orientation. If the image is too wide, it fills transparent pixels on top and bottom to bring the image to the supported aspect ratio of 16:9. Similarly if the image is too tall, it fills in the left and right of the image with transparent pizels to bring the aspect ratio to 4:5. 
 
 #### Usage
 
